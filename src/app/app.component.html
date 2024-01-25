@@ -1,0 +1,67 @@
+<nav class="navbar navbar-default">
+  <div class="contianer-fluid">
+      <ul class="nav justify-content-lg-between">
+        <li class="nav-item">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/>
+              </svg> 
+            </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="home" routerLinkActive="active" class="nav-link text-dark">
+            Home 
+        </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-secondary"  routerLink="jobs" routerLinkActive="text-dark">Jobs</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="users" routerLinkActive="active" class="nav-link text-dark">
+                People 
+            </a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="create-user" routerLinkActive="active" class="nav-link text-dark">
+                Register
+            </a>
+        </li>
+
+        <!-- <li class="nav-item">
+          <a class="nav-link text-secondary"  routerLink="resume" routerLinkActive="text-dark">Resume</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-secondary"  routerLink="contact" routerLinkActive="text-dark">Contact</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link text-secondary"  routerLink="article" routerLinkActive="text-dark">Article</a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+
+<!-- <h1 class="text-center">
+  {{title}} 
+</h1> -->
+<!-- <h2 class="text-center">
+  User List
+</h2> -->
+
+<div class="container">
+<router-outlet></router-outlet>
+</div>
+<footer class="footer">
+  <div class="container">
+      <span>
+          All Rights Reserved  &#64;Copy Right 2023-2024
+      </span>
+  </div>
+
+</footer>
+
+
+
+<!-- <div class="navbar-header">
+  <a href="#" class="navbar-brand">Job Portal</a>
+</div> -->
+

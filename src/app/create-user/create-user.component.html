@@ -1,0 +1,36 @@
+<div class="col-md-6 offset-md-3">
+    <h3>Create User</h3>
+    <!-- we will se ngSubmit event and we assign it to an eventHandler onSubmit(), this will 
+    be defined in the component -->
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label>User Name</label>
+            <input type="text" class="form-control" id="userName" [(ngModel)]="user.firstName" name="userName">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" id="email" [(ngModel)]="user.email" name="email">
+        </div>
+        <div class="form-group">
+            <label>password</label>
+            <input type="text" class="form-control" id="password" [(ngModel)]="user.password" name="password">
+        </div>
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" class="form-control" id="firstName" [(ngModel)]="user.firstName" name="firstName">
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" class="form-control" id="lastName" [(ngModel)]="user.lastName" name="lastName">
+        </div>
+        <div class="form-group">
+            <label>Company Name</label>
+            <input type="text" class="form-control" id="companyName" [(ngModel)]="user.companyName" name="companyName">
+        </div>
+        <div class="form-group">
+            <label>Role</label>
+            <input type="text" class="form-control" id="role" [(ngModel)]="user.role" name="role">
+        </div>
+        <button class="btn btn-outline-secondary" type="submit">Register</button>
+    </form>
+</div>

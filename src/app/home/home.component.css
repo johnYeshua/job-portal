@@ -1,0 +1,19 @@
+/* search-bar.component.css */
+
+.input-group {
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .form-control {
+    border-radius: 0; /* Optional: Set border-radius to 0 for a modern look */
+  }
+  
+  .input-group-append {
+    flex: 0 0 auto;
+  }
+  
+  .input-group-append .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
